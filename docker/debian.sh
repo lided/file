@@ -26,11 +26,9 @@ if ! systemctl is-active --quiet docker; then
 fi
 
 read -p "run hello-world to test ? [Y/n]": yn
-case "${yn,,}" in
-y|yes|"") 
-  sudo docker run --rm hello-world
-  ;;
-*)
-  echo "Skipping test."
-;;
-esac
+
+if [[ "${yn,,}" == "y" ]] || [[ "${yn,,}" == "yes" ]] || [[ -z "${yn}" ]]; then
+    sudo docker run --rm hello-world
+else
+    echo "Skipping test."
+fi
