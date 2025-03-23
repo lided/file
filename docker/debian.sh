@@ -26,7 +26,7 @@ if ! systemctl is-active --quiet docker; then
 fi
 
 read -p "run hello-world to test ? [Y/n]": yn
-case "${yn,,}" in  # 转换为小写
+case "${yn,,}" in
     y|yes|"") 
         sudo docker run --rm hello-world
         ;;
