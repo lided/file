@@ -27,10 +27,10 @@ fi
 
 read -p "run hello-world to test ? [Y/n]": yn
 case "${yn,,}" in
-    y|yes|"") 
-        sudo docker run --rm hello-world
-        ;;
-    *)
-        echo "Skipping test."
-        ;;
+y|yes|"") 
+  sudo docker run --rm hello-world
+  ;;
+*)
+  echo "Skipping test."
+;;
 esac
