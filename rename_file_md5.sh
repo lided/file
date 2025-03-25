@@ -10,8 +10,8 @@ fi
 
 function rename_file_to_md5(){
 	file=$1
-	# 获取文件扩展名
-	extension="${file##*.}"
+	bname=$(basename $file)
+        extension="${bname##*.}"
 	# 计算文件的MD5哈希值
 	md5sum=$(md5sum "$file" | awk '{print $1}')
 	# 获取文件所在的目录
