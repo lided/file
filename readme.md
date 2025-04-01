@@ -2,8 +2,12 @@
 ├── a.sh
 ├── docker
 │   └── debian.sh
-├── readme.sh
+├── pacman
+│   └── mirrorlist
+├── pre-commit.sh
+├── readme.md
 ├── rename_file_md5.sh
 └── vimrc
 
-2 directories, 5 files
+3 directories, 7 files
+
