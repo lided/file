@@ -1,5 +1,5 @@
+```
 .
-├── a.sh
 ├── docker
 │   └── debian.sh
 ├── pacman
@@ -9,5 +9,5 @@
 ├── rename_file_md5.sh
 └── vimrc
 
-3 directories, 7 files
-
+3 directories, 6 files
+```
