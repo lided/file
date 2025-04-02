@@ -2,12 +2,14 @@
 .
 ├── docker
 │   └── debian.sh
-├── pacman
-│   └── mirrorlist
+├── etc
+│   └── pacman.d
+│       └── mirrorlist
 ├── pre-commit.sh
 ├── readme.md
-├── rename_file_md5.sh
+├── shell
+│   └── rename_file_md5.sh
 └── vimrc
 
-3 directories, 6 files
+5 directories, 6 files
 ```
