@@ -6,11 +6,11 @@
 ├── etc
 │   └── pacman.d
 │       └── mirrorlist
-├── pre-commit.sh
 ├── readme.md
-├── shell
-│   └── rename_file_md5.sh
-└── vimrc
+├── root
+│   └── vimrc
+└── shell
+    └── rename_file_md5.sh
 
-5 directories, 7 files
+6 directories, 6 files
 ```
