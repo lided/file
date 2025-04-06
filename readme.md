@@ -1,8 +1,8 @@
 ```
 .
 ├── docker
-│   ├── daemon.json.sh
-│   └── debian.sh
+│   ├── debian.sh
+│   └── get-mirrors.sh
 ├── etc
 │   └── pacman.d
 │       └── mirrorlist
